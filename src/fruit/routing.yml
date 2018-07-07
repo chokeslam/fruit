@@ -1,0 +1,3 @@
+home:
+    pattern: /
+    cortroller: home
