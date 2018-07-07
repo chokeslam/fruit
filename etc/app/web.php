@@ -23,7 +23,8 @@ return Arr::mergeRecursive(include __DIR__ . '/windwalker.php', [
      * you registered here.
      */
     'packages' => [
-        'main' => \Main\MainPackage::class
+        'main' => \Main\MainPackage::class,
+        'fruit' => \fruit\FruitPackage::class
     ],
 
     /*

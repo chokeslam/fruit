@@ -17,16 +17,6 @@ use Windwalker\Core\Package\AbstractPackage;
  */
 class FruitPackage extends AbstractPackage
 {
-    /**
-     * boot
-     *
-     * @return  void
-     *
-     * @throws \ReflectionException
-     * @throws \Windwalker\DI\Exception\DependencyResolutionException
-     *
-     * @since  __DEPLOY_VERSION__
-     */
     public function boot()
     {
         return parent::boot();
